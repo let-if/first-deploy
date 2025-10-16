@@ -1,3 +1,7 @@
-{"homepage":"https://let-if.github.io/first-deploy","name":"project2","version":"1.0.0","main":"app.js","scripts":{"predeploy":"npm run build","deploy":"gh-pages -d build","test":"echo \"Error: no test specified\" && exit 1"},"author":"","license":"ISC","description":"","dependencies":{"body-parser":"^2.2.0","ejs":"^3.1.10","express":"^5.1.0","mongoose":"^8.16.1"},"devDependencies":{"gh-pages":"^6.3.0"}}
+{"homepage":"https://let-if.github.io/first-deploy","name":"project2","version":"1.0.0","main":"app.js","scripts":{  "start": "node app.js",
+  
+  "predeploy": "echo 'No build step needed for EJS project'",
+  "deploy": "gh-pages -d public",
+  "test": "echo \"Error: no test specified\" && exit 1"},"author":"","license":"ISC","description":"","dependencies":{"body-parser":"^2.2.0","ejs":"^3.1.10","express":"^5.1.0","mongoose":"^8.16.1"},"devDependencies":{"gh-pages":"^6.3.0"}}
 
 
