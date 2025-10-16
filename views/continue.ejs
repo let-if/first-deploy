@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header3{ 
+    width: 120px;margin-left: 50px;
+        }
+        body{
+           background-color: beige;
+        }
+        .in1{
+            width: 300px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 3px;
+        }
+        .in2{
+            width: 300px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border-radius: 3px;
+        }
+        .in3{
+            width: 320px;
+            border-radius: 30px;
+            background-color: rgb(36, 36, 245);
+            color: white;
+            padding-top: 15px;
+            padding-bottom: 12px;
+            margin-top: 12px;
+        }
+        
+        .div1{
+            width: 400px;
+            height: 300px;
+            background-color: #ffffff;
+            margin-left: 450px;
+            padding-left: 55px;
+        }
+        .div2{
+            display: flex;
+            flex-direction: column;
+            gap: 10;
+           
+        }
+        
+        .div3{
+            margin-left: 450px;
+            font-size: 15px;
+        }
+        .h1{
+            background-color: rgb(45, 45, 237);
+            color: white;
+        }
+        #myAlert {
+  display: none;
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  padding: 15px 25px;
+  background-color: #ffcc00;
+  color: #333;
+  font-size: 18px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+.alert{
+    width: 400px;
+    height: 100px;
+    background-color:white ;
+    margin-left: 800px;
+    margin-top: 00px;
+    border: 2px solid white;
+    border-style: inset;
+    display: flex;
+    flex-direction: row;
+}
+.alert h2{
+    color: red;
+    padding-left: 50px;
+    padding-top: 0px;
+
+}
+.close-btn{
+  cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-left: 80px;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header3">
+<h1 class="h1">linkdein</h1>
+    </header>
+    <div class="div3">
+        <h1>make the most of your profetinal life</h1>
+    </div>
+    <div class="div1">
+        <div class="div2">
+<form action="/submit" method="post">
+    <h4>first name</h4>
+    <input type="text" class="in1" name="joininput">
+    <h4>last name</h4>
+    <input type="text" class="in2" name="joinoutput">
+    <button class="in3" type="submit">continue</button>
+</form>
+        </div>
+    </div>
+    <div class="alert">
+        <h2>security verfication !</h2>
+        <span class="close-btn">&times;</span>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/style.js"></script>
+</body>
+</html>
